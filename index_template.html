@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=330">
+    <title>修理ステータス</title>
+</head>
+
+<body>
+    <h1>社員対応状況(修理)</h1>
+    <!-- action にGASのURLを記述する -->
+    <form method="get"
+        action="https://script.google.com/macros/s/AKfycby2quOvG_kTlpfeaV9ZWJsAkI-V6E8XwEzo3BEJ1m_j4nIYgePrRFZ9G8vlFOPzwCjU/exec">
+
+        <p>ID:
+            <label><input type="text" name="id"></label>
+        </p>
+
+
+        <p>対応状況:</p>
+            <label><input type="radio" name="status" value="対応中">対応中</label><br>
+            <label><input type="radio" name="status" value="対応済み">対応済み</label><br>
+
+
+
+
+
+        <p><input type="submit" value="送信"></p>
+
+    </form>
+</body>
+
+</html>
